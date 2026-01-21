@@ -1,0 +1,41 @@
+; Variáveis são contêineres que armazenam valores de dados. 
+; Elas são usadas para armazenar, manipular e exibir informações dentro de um programa.
+
+; Em resumo, uma variável é como uma unidade de memória que podemos acessar digitando o nome da variável.
+
+; Cada variável tem um nome único e um valor que pode ser de diferentes tipos. 
+; C# possui vários tipos de dados incorporados que definem o tipo de valor que uma variável pode armazenar.
+
+; Para inicializar uma variável, usamos o seguinte formato:
+
+; variableType variableName = value;
+; Em C#, os números são tipicamente representados usando dois principais tipos de dados: int e double.
+
+; int é usado para armazenar números inteiros sem qualquer ponto decimal. Por exemplo:
+
+; int age = 30;
+; int temperature = -5;
+; int count = 100;
+; double é usado para armazenar números com um ponto decimal. Por exemplo:
+
+; double price = 99.99;
+; double pi = 3.14159;
+; double fraction = 0.5;
+; Ao declarar variáveis em C#, você precisa especificar o tipo da variável antes do nome da variável. 
+; Isso é conhecido como declaração de tipo. Uma vez que uma variável é declarada com um certo tipo, ela só 
+; pode armazenar valores desse tipo.
+
+<!-- using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        // Declare and initialize variables here
+        int quantity = 5;
+        double itemPrice = 24.99;
+        
+        // Don't change below
+        Console.WriteLine("Quantity: " + quantity);
+        Console.WriteLine("Price: " + itemPrice);
+        
+    }
+} -->
