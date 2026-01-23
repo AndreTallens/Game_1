@@ -1,0 +1,6 @@
+Um char é um único caractere (Por exemplo: 1, 6, %, b, p, ., T, etc.)
+
+Para inicializar um valor char em uma variável, envolva-o com aspas simples:
+
+char c1 = 'h';
+No exemplo acima, uma variável char chamada c1 é inicializada.
