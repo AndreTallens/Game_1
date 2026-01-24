@@ -1,0 +1,7 @@
+Um tipo booleano tem apenas 2 valores possíveis: true ou false.
+
+Para atribuir um valor booleano a uma variável, use a palavra-chave bool seguida do nome da variável:
+
+bool variableTrue = true;
+bool variableFalse = false;
+No exemplo acima, duas variáveis booleanas chamadas variableTrue e variableFalse são inicializadas com os valores true e false, respectivamente.
