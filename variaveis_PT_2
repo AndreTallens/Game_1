@@ -1,0 +1,9 @@
+// Em C#, var é uma palavra-chave que permite declarar uma variável sem especificar explicitamente seu tipo. O compilador infere o tipo da variável com base no valor atribuído a ela. Isso é conhecido como inferência de tipo. var pode tornar o código mais conciso e legível, especialmente ao lidar com tipos complexos.
+
+// Aqui está como você usa var:
+
+// var age = 30;
+// var price = 99.99;
+// var name = "Alice";
+// var isActive = true;
+// Nesses exemplos, o compilador infere que age é um int, price é um double, name é uma string, e isActive é um bool.
