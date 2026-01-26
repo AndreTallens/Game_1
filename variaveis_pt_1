@@ -1,0 +1,18 @@
+// Declaração de Tipo
+
+
+
+// Uma vez que uma variável é declarada com um certo tipo, ela só pode conter valores desse tipo. Por exemplo, uma variável int só pode conter valores inteiros, e uma variável string só pode conter texto.
+
+// Por exemplo:
+
+// int age = 25;        // Can only hold whole numbers
+// string str = "abc";  // Can only hold text
+// Estes causariam erros:
+
+// age = "defg";  // Error: can't put text in an int variable
+// str = 25;      // Error: can't put a number in a string variable
+// Estes são válidos:
+
+// age = 26;      // OK: assigning a new integer
+// str = "Jane";  // OK: assigning a new text string
