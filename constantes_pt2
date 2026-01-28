@@ -1,0 +1,6 @@
+// Uma constante é um tipo especial de variável cujo valor não pode ser alterado após ser inicializado. Para declarar uma constante, use a palavra-chave const seguida do tipo de dados e do nome da constante:
+
+// const int MAX_VALUE = 100;
+// const double PI = 3.14159;
+// const string MESSAGE = "Hello, Coddy!";
+// Nestes exemplos, MAX_VALUE, PI e MESSAGE são constantes que não podem ser modificadas após a inicialização. Tentar alterar seus valores resultará em um erro de compilação.
