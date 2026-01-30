@@ -1,0 +1,13 @@
+Convenções de nomenclatura são como as regras de trânsito para programadores. Elas ajudam a manter o código organizado e compreensível. Imagine se as placas de rua fossem todas aleatórias e inconsistentes – seria um caos! Da mesma forma, sem convenções de nomenclatura, o código pode se tornar bagunçado e confuso.
+
+Em C#, seguir convenções de nomenclatura consistentes é crucial para escrever código limpo, manutenível e colaborativo. Aqui estão algumas convenções principais a ter em mente:
+
+PascalCase: Use para nomes de classes, métodos e propriedades. Cada palavra começa com uma letra maiúscula, ex.: MyClass, CalculateTotal, FirstName.
+camelCase: Use para variáveis locais e parâmetros de métodos. A primeira palavra começa com uma letra minúscula e cada palavra subsequente começa com uma letra maiúscula, ex.: myVariable, customerName, calculateTotal.
+_underscorePrefix: Use para campos privados (variáveis dentro de uma classe). Comece com um underscore seguido de camelCase, ex.: _myPrivateField, _customerAge.
+UPPER_CASE: Use para constantes. Todas as letras são maiúsculas e as palavras são separadas por underscores, ex.: MAX_VALUE, PI, DEFAULT_TIMEOUT.
+Aqui estão algumas dicas adicionais:
+
+Use nomes descritivos que indiquem claramente o propósito da variável ou método.
+Evite abreviações ou acrônimos, a menos que sejam amplamente compreendidos no contexto do seu código.
+Seja consistente com as convenções escolhidas em todo o seu projeto.
