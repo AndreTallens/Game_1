@@ -1,0 +1,24 @@
+// Escreva código que inicializa as seguintes variáveis:
+
+// k com o valor 88
+// PI com o valor 3.14
+// name com o valor "bob"
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        // Type your code below
+        var k = 88;
+        var PI = 3.14;
+        var name = "bob";
+
+        
+        // Don't change the lines below
+        Console.WriteLine("k = " + k);
+        Console.WriteLine("PI = " + PI);
+        Console.WriteLine("name = " + name);
+    }
+}
+
+//declarar variaveis somente como var faz com que o compilador defina o tipo automaticamente baseado no valor atribuído, isso se chama inferência de tipos.
