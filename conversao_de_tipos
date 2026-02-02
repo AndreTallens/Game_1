@@ -1,0 +1,26 @@
+// Conversão de Tipos
+
+
+
+// Conversão de tipo é o processo de converter um valor de um tipo de dados para outro.
+
+// Em C#, podemos converter inteiros em doubles, doubles em inteiros e mais. Existem dois tipos de conversão: implícita (automática) e explícita (manual).
+
+// Por exemplo Integer to Double:
+
+// Conversão implícita (automática):
+
+// int number = 5;
+// double decimal_implicit = number; // automatically becomes 5.0
+
+// // with calculation
+// int x = 7;
+// double result_implicit = x / 2.0; // result is 3.5
+// Conversão explícita (manual) Double to Integer:
+
+// double decimal_explicit = 9.7;
+// int number_explicit = (int) decimal_explicit;  // becomes 9 (decimal part is truncated)
+
+// // with calculation
+// double price = 19.99;
+// int roundedPrice = (int) price;  // becomes 19
