@@ -1,0 +1,24 @@
+// Desafio
+
+// Iniciante
+// Escreva um programa em C# que demonstre o casting de tipos. Realize as seguintes operações:
+
+// Declare uma variável double chamada price e inicialize-a com o valor 99.99.
+// Faça o cast da variável price para um int e armazene o resultado em uma nova variável chamada intPrice.
+// Imprima os valores de price e intPrice no console.
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        // Declare and initialize variables
+        double price = 99.99;
+        int intPrice = (int) price;
+        
+        
+        // Output the values
+        Console.WriteLine("Price: " + price);
+        Console.WriteLine("Int Price: " + intPrice);
+        
+    }
+}
