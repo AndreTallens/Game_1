@@ -1,0 +1,23 @@
+Operadores Aritméticos
+
+
+
+Operadores são usados para realizar operações em valores.
+
+Primeiro, discutiremos os mais básicos operadores aritméticos, eles podem ser familiares das aulas de matemática.
+
+Operador	Operação	Exemplo
++	Adição	3 + 2 = 5
+-	Subtração	3 - 2 = 1
+*	Multiplicação	3 * 2 = 6
+/	Divisão	4 / 2 = 2
+Vamos ver um exemplo de uso,
+
+int a = 3;
+int b = 5;
+int c = a + b; // c contém 8
+Quando trabalhamos com números decimais em C#, usamos o tipo de dados double, que pode armazenar números com pontos decimais. Os mesmos operadores aritméticos (+, -, *, /) funcionam com doubles da mesma forma que com inteiros:
+
+double x = 3.3;
+double y = 4.1;
+double z = x + y; // z contém 7.4
