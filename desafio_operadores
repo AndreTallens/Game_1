@@ -1,0 +1,15 @@
+// Escreva um código que inicializa duas variáveis, a e b, com os valores 5.2 e 2.6 (respectivamente).
+
+// Depois disso, inicialize outra variável c que conterá o resultado de a / b.
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        // Type your code below
+        
+        
+        // Don't change the line below
+        Console.WriteLine("a = " + a + ", b = " + b + ", c = " + c);
+    }
+}
