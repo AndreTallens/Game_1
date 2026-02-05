@@ -1,0 +1,29 @@
+<!-- Operador Módulo
+
+
+
+O operador módulo % dá o resto de uma divisão. Em C#, ele é usado com uma sintaxe simples:
+
+result = dividend % divisor;
+dividend: O número que está sendo dividido.
+divisor: O número que divide o dividendo.
+result: O resto da divisão.
+Por exemplo:
+
+result = 10 % 3;
+Aqui, 10 é dividido por 3. 3 cabe em 10 três vezes, com um resto de 1. Então, result será 1.
+
+Geralmente, o módulo é usado para verificar se um número é par ou ímpar:
+
+Se um número é par, dividi-lo por 2 deixará um resto de 0.
+Se um número é ímpar, dividi-lo por 2 deixará um resto de 1.
+Ao usar módulo com números de ponto flutuante (doubles), ele funciona de forma semelhante aos inteiros, mas mantém a precisão decimal. Por exemplo:
+
+double result = 5.2 % 2.0;
+// result é 1.2
+Aqui está como funciona: 2.0 cabe em 5.2 duas vezes (4.0), e o resto é 1.2 (5.2 - 4.0 = 1.2).
+
+Outro exemplo:
+
+double result = 7.8 % 3.5;
+// result é 0.8 -->
