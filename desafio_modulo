@@ -1,0 +1,27 @@
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        // Type your code below
+        int a = 9;
+        double b = 2.6;
+        int c = 11;
+
+        int d = a % 2;
+        int e = a % 3;
+        double f = b % 1.5;
+        double g = b% 3.9;
+        int h = c % 10;
+        
+        
+        // Don't change the line below
+        Console.WriteLine("a = " + a);
+        Console.WriteLine("b = " + b);
+        Console.WriteLine("c = " + c);
+        Console.WriteLine("d = " + d);
+        Console.WriteLine("e = " + e);
+        Console.WriteLine("f = " + f);
+        Console.WriteLine("g = " + g);
+        Console.WriteLine("h = " + h);
+    }
+}
