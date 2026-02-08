@@ -1,0 +1,32 @@
+// Desafio
+
+// Iniciante
+// Você recebe um código com a inicialização de count. (Não apague esta linha!)
+
+// Sua tarefa é adicionar as seguintes operações, nesta ordem:
+
+// Use o operador de incremento (++) quatro vezes para adicionar 4 a count
+// Use o operador de multiplicação (*) para multiplicar count por 2
+// Use o operador de decremento (--) uma vez para subtrair 1 de count
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        int count = 0;
+        
+        // Type your code below
+        count ++;
+        count ++;
+        count ++;
+        count ++;
+
+        count = count * 2;
+
+        count --;
+        
+        
+        // Don't change the line below
+        Console.WriteLine("count = " + count);
+    }
+}
