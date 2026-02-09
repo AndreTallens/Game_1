@@ -1,0 +1,40 @@
+Pós-Incremento/Decremento
+
+
+
+Operadores de Incremento (++) e Decremento (--) podem ser usados de duas maneiras:
+
+Pré-incremento/decremento (++x ou --x):
+
+O operador vai ANTES da variável
+O valor muda IMEDIATAMENTE
+O novo valor é usado na expressão
+
+int x = 5;
+int y = ++x;
+// x é aumentado para 6 primeiro, depois y se torna 6
+Pós-incremento/decremento (x++ ou x--):
+
+O operador vai DEPOIS da variável
+O valor original é usado primeiro
+O valor muda DEPOIS da expressão
+
+int x = 5;
+int y = x++;
+// y se torna 5 primeiro, depois x aumenta para 6
+Outro exemplo
+
+pós-incremento:
+
+int score = 5;
+
+int res1 = score++;
+// res1 é 5
+// score é 6
+pré-incremento:
+
+int score = 5;
+
+int result2 = ++score;
+// res é 6
+// score é 6
