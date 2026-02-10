@@ -1,0 +1,24 @@
+Atalhos Aritméticos
+
+
+
+O C# criou um atalho legal para operações aritméticas de autoatribuição.
+
+Por exemplo, em vez de escrever:
+
+int a = 5;
+a = a + 3; // a agora contém 8
+Podemos simplificá-lo escrevendo +=:
+
+int a = 5;
+a += 3; // a agora contém 8
+O += está adicionando ao a ele mesmo o valor 3
+
+Essa operação é válida para todas as operações aritméticas:
+
+Operador	Atalho
++	+=
+-	-=
+*	*=
+/	/=
+%	%=
