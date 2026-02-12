@@ -1,0 +1,23 @@
+Você recebe um código com a inicialização de count. (Não delete esta linha!)
+
+Sua tarefa é adicionar as seguintes operações, nesta ordem:
+
+Adicione 4 a count
+Multiplique count por 2
+Subtraia 1 de count
+Use os atalhos aritméticos para fazer isso!
+
+  class Program {
+    public static void Main(string[] args) {
+        int count = 0;
+        
+        // Type your code below
+        count += 4;
+        count *= 2;
+        count--;
+        
+        
+        // Don't change the line below
+        Console.WriteLine("count = " + count);
+    }
+}
