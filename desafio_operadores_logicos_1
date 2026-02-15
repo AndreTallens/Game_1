@@ -1,0 +1,27 @@
+//Você é fornecido com um código. Substitua os pontos de interrogação das variáveis b1 e b2 para que b3 contenha true.
+// using System;
+
+// public class Program {
+//     public static void Main(string[] args) {
+//         // Type your code below
+//         bool b1 = ?;
+//         bool b2 = ?;
+//         bool b3 = b1 || b2;
+        
+//         // Don't change the line below
+//         Console.WriteLine("b3 = " + b3);
+//     }
+// }
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        // Type your code below
+        bool b1 = !( 5>= 10);
+        bool b2 = (1 == 1);
+        bool b3 = b1 || b2;
+        
+        // Don't change the line below
+        Console.WriteLine("b3 = " + b3);
+    }
+}
