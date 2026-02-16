@@ -1,0 +1,30 @@
+Operadores Lógicos Parte 2
+
+
+
+Operadores lógicos têm uma tabela especial chamada "Tabela-verdade" que mostra o que a combinação de operadores lógicos retorna.
+
+Tabela-verdade para o operador and (&&):
+
+a	b	a && b
+false	false	false
+false	true	false
+true	false	false
+true	true	true
+A única maneira de obter um true para o operador and (&&) é se ambos a e b forem true
+
+Tabela-verdade para o operador or (||):
+
+a	b	a || b
+false	false	false
+false	true	true
+true	false	true
+true	true	true
+Neste caso, para obter um resultado true, ou a ou b deve ser true.
+
+Tabela-verdade para o operador not (!):
+
+a	!a
+false	true
+true	false
+Aqui o valor de a é invertido. Se a for false então !a é true
