@@ -1,0 +1,26 @@
+Resumo - Lógica Simples
+
+
+Desafio
+
+Iniciante
+Dado o seguinte trecho de código, sua tarefa é atribuir valores booleanos (true ou false) às variáveis b1, b2 e b3 para que b4 seja avaliado como true.
+
+A variável b4 é calculada usando a seguinte lógica:
+
+Realiza uma operação AND (&&) entre b1, b2 e o NOT de b3
+Para b4 ser true, todas as partes da operação AND devem ser true
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        bool b1 = true;
+        bool b2 = true;
+        bool b3 = false;
+        
+        bool b4 = b1 && b2 && (!b3);
+        Console.WriteLine("b4 = " + b4);
+
+    }
+}
