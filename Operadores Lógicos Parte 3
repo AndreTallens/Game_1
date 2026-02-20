@@ -1,0 +1,24 @@
+Operadores Lógicos Parte 3
+
+
+
+Ao verificar múltiplas condições, o computador para de verificar assim que sabe a resposta final (Isso é chamado de avaliação de curto-circuito).
+
+Por exemplo:
+
+int x = 0;
+int y = 5;
+bool result = x != 0 && y / x > 2;
+Aqui x é igual a 0, portanto não avaliará y / x > 2. Se invertêssemos a ordem:
+
+bool result = y / x > 2 && x != 0;
+Isso resultará em um erro porque y será dividido por 0, o que é ilegal na matemática.
+
+Essa técnica é usada para otimizar a avaliação de expressões lógicas. Por exemplo:
+
+int a = 0;
+int b = 2;
+int c = 3;
+int d = 5;
+bool result = (a > 0 && b < 2) || (c < -5 && d < 10);
+Neste exemplo b < 2 e d < 10 não serão avaliados porque a > 0 e c < -5 são ambos falsos.
