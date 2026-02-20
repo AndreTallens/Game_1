@@ -1,0 +1,47 @@
+Operadores Lógicos Parte 3
+
+
+
+Desafio
+
+Iniciante
+Vamos criar um programa para decidir se é um bom dia para produção de energia de painéis solares
+
+Inicialize estas variáveis:
+
+isSunny com o valor true
+windSpeed com o valor 5.4
+temperature com o valor 23
+solarPanelOutput com o valor 9
+isCloudy com o valor false
+Crie uma expressão lógica que verifica TODAS estas condições:
+
+Está ensolarado
+A velocidade do vento é menor que 10
+A saída do painel solar é menor que 15
+A temperatura está acima de 20 OU não há nuvens
+
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        // Initialize variables
+        bool isSunny = true;
+        double windSpeed = 5.4;
+        int temperature = 23;
+        int solarPanelOutput = 9;
+        bool isCloudy = false;
+        
+        // The complete logical expression
+        bool result = isSunny && windSpeed < 10 && solarPanelOutput < 15 && (temperature > 20 || !isCloudy);
+        
+        // Don't delete the lines below
+        Console.WriteLine("Checking conditions for solar energy production...");
+        Console.WriteLine("1. Is it sunny? " + isSunny);
+        Console.WriteLine("2. Is wind speed safe? " + (windSpeed < 10));
+        Console.WriteLine("3. Can panels produce more? " + (solarPanelOutput < 15));
+        Console.WriteLine("4. Is temperature good OR no clouds? " + (temperature > 20 || !isCloudy));
+        Console.WriteLine("\nFinal result - Good day for solar energy production: " + result);
+    }
+}
