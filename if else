@@ -1,0 +1,40 @@
+If - Else
+
+
+
+O if nos permite executar um código particular se uma condição for atendida, mas e se quisermos executar algo diferente se a condição não for atendida?
+
+Para isso, temos a declaração else:
+
+int age = 15;
+string status = "None";
+if (age >= 18) {
+    status = "Adult";
+} else {
+    status = "Young";
+}
+No exemplo acima, age é menor que 18, o que significa que ele entra no código else e status conterá "Young".
+
+Podemos até torná-lo mais complexo usando a declaração else if:
+
+int age = 68;
+string status = "None";
+if (age < 18) {
+    status = "Young";
+} else if (age >= 18 && age <= 65) {
+    status = "Adult";
+} else {
+    status = "Old";
+}
+Aqui, ele verifica se a idade é menor que 18, se não, continuará para a próxima condição e verificará se a idade está entre 18 e 65. Se essa condição também não for atendida, definirá status para "Old".
+
+Podemos adicionar quantas declarações else if quisermos:
+
+if (condition1) {
+    code;
+} else if (condition2) {
+    code;
+} else if (condition3) {
+    code;
+}
+...
