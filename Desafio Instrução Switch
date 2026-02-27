@@ -1,0 +1,16 @@
+Instrução Switch
+
+
+
+Desafio
+
+Iniciante
+Crie um programa que recebe um número de mês (1 para janeiro, 2 para fevereiro, etc.) e imprime a estação à qual ele pertence. Use uma declaração switch para a lógica.
+
+As estações e seus meses correspondentes são:
+
+Winter: dezembro (12), janeiro (1), fevereiro (2)
+Spring: março (3), abril (4), maio (5)
+Summer: junho (6), julho (7), agosto (8)
+Autumn: setembro (9), outubro (10), novembro (11)
+
