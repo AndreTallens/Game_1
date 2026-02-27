@@ -1,0 +1,21 @@
+Operador Ternário
+
+
+
+O operador ternário é uma declaração if-else de uma única linha simples. Ele tem a seguinte sintaxe:
+
+variable = (condition) ? value_if_true : value_if_false;
+O operador ternário avalia a condição. Se for true, ele atribui value_if_true à variável; caso contrário, atribui value_if_false.
+
+Por exemplo:
+
+int age = 20;
+string message = (age >= 18) ? "Adult" : "Minor";
+Neste exemplo, como age é maior ou igual a 18, message será atribuído o valor "Adult". Se age fosse menor que 18, message seria atribuído "Minor".
+
+Você pode aninhar operadores ternários para lidar com múltiplas condições:
+int score = 75;
+String grade = (score >= 90) ? "A" : (score >= 80) ? "B" : (score >= 70) ? "C" : "F";
+Isso verifica múltiplas condições em ordem. Se score >= 90, grade é "A"; senão se score >= 80, grade é "B"; senão se score >= 70, grade é "C"; caso contrário "F".
+
+Nota: Operadores ternários aninhados podem ser difíceis de ler. Para condições complexas, use declarações if-else em vez disso.
