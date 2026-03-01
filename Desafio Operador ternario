@@ -1,0 +1,24 @@
+Desafio
+
+Iniciante
+Crie um programa que verifica se um número é positivo, negativo ou zero usando o operador ternário. O programa deve:
+
+Receber uma entrada de inteiro do usuário.
+Usar o operador ternário para determinar se o número é positivo, negativo ou zero. Salve a string positive, negative ou zero em result.
+Imprima o resultado no formato: "The number is [positive/negative/zero]".
+Você nested ternary para resolver este problema.
+
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        int number = int.Parse(Console.ReadLine());
+        string result = "";
+        
+        // Write your code below
+        result = (number > 0) ? "positive" : (number < 0) ? "negative" : "zero";
+        
+        Console.WriteLine("The number is " + result);
+    }
+}
