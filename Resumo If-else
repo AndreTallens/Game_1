@@ -1,0 +1,44 @@
+Resumo - If Else
+
+
+Desafio
+
+Iniciante
+Você recebe um código que obtém como entrada dois números n1 e n2 e uma string de um único caractere op.
+
+Nota: aprenderemos nas próximas aulas como obter entrada do usuário, atualmente apenas não mexa nas três primeiras linhas.
+
+ 
+
+Os valores possíveis para op são '+', '-', '/' e '*'
+
+Sua tarefa é definir a variável result com base nas condições:
+
+se op for '+', defina result com n1 + n2.
+se op for '-', defina result com n1 - n2.
+se op for '/', defina result com n1 / n2.
+se op for '*', defina result com n1 * n2.
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        int n1 = int.Parse(Console.ReadLine());
+        int n2 = int.Parse(Console.ReadLine());
+        string op = Console.ReadLine();
+        
+        double result = 0;
+        
+        if (op == "+") {
+            result = n1 + n2;
+        } else if (op == "-") {
+            result = n1 - n2;
+        } else if (op == "/") {
+            result = (double) n1 / n2;
+        } else if (op == "*") {
+            result = n1 * n2;
+        }
+        
+        Console.WriteLine(result);
+    }
+}
