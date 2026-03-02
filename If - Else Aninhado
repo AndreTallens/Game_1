@@ -1,0 +1,24 @@
+Podemos aninhar instruções if-elif-else umas dentro das outras. Isso nos permite criar estruturas de tomada de decisão hierárquicas.
+
+Por exemplo:
+
+if (age > 18) {
+    if (hasLicense) {
+        Console.WriteLine("You can drive");
+    } else {
+        Console.WriteLine("Get a license first");
+    }
+} else {
+    Console.WriteLine("Too young to drive");
+}
+
+Pode ser aninhado infinitamente:
+
+if (condition1) {
+    if (condition2) {
+        if (condition3) {
+            // se condition1, condition2 e condition3 forem verdadeiras
+            ...
+        }
+    }
+}
