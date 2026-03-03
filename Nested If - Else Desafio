@@ -1,0 +1,49 @@
+Desafio
+
+Iniciante
+Crie um programa que verifica se alguém pode andar em uma montanha-russa. Os requisitos são:
+
+Deve ter pelo menos 12 anos
+Deve ser mais alto que 150cm
+Se eles atenderem a ambos os requisitos, mas tiverem menos de 15 anos, precisam de supervisão de adulto
+Defina a variável status exatamente para estas strings em cada caso:
+
+Se muito jovem: Sorry, you're too young
+Se não alto o suficiente: Sorry, you're not tall enough
+Se menor de 15 e sem adulto: Sorry, you need an adult with you
+Se menor de 15 com adulto: You can ride with adult supervision!
+Se 15 ou mais velho e alto o suficiente: You can ride by yourself!
+
+using System;
+
+class Program {
+    public static void Main(string[] args) {
+        int age = int.Parse(Console.ReadLine()); // Don't change this line
+        int height = int.Parse(Console.ReadLine()); // Don't change this line
+        bool hasAdult = bool.Parse(Console.ReadLine()); // Don't change this line
+
+        string status = "";
+        // Write your code below
+        
+        if (age >= 12) {
+            if (height > 150) {
+                if (age < 15) {
+                    if (hasAdult) {
+                        status = "You can ride with adult supervision!";
+                    } else {
+                        status = "Sorry, you need an adult with you";
+                    }
+                } else {
+                    status = "You can ride by yourself!";
+                }
+            } else {
+                status = "Sorry, you're not tall enough";
+            }        
+        } else {
+            status = "Sorry, you're too young";
+        }
+        
+        // Don't change below this line
+        Console.WriteLine(status);
+    }
+}
