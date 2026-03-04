@@ -1,0 +1,21 @@
+Saída Básica
+
+
+
+Em C#, você pode exibir saída no console usando o método System.Console.WriteLine. Este método imprime texto ou valores no console e avança para uma nova linha em seguida.
+
+System.Console.WriteLine("Hello, world!");
+System.Console.WriteLine(42);
+Saída:
+
+Hello, world!
+42
+O método System.Console.WriteLine pode lidar com diferentes tipos de dados, incluindo strings, números e até variáveis.
+
+Usando o namespace System:
+A classe Console pertence ao namespace System. No início do seu programa, certifique-se de incluir:
+
+using System;
+Isso torna a classe Console disponível sem precisar escrever System.Console toda vez.
+
+Agora você pode usar Console.WriteLine para criar saídas interativas e envolventes em seus programas!
