@@ -1,0 +1,22 @@
+Saída Básica
+
+
+
+Desafio
+
+Iniciante
+Escreva um programa em C# que usa Console.WriteLine para exibir o seguinte:
+
+Imprima "Hello, Coddy!" em uma nova linha.
+Imprima "C# is fun!" em uma nova linha.
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        // Write your code here
+        Console.WriteLine("Hello, Coddy!");
+        Console.WriteLine("C# is fun!");
+
+    }
+}
