@@ -1,0 +1,24 @@
+Interpolação de Strings
+
+
+
+Até agora aprendemos como imprimir strings simples, mas às vezes precisamos inserir valores de variáveis na string.
+
+Por exemplo:
+
+int age = 10;
+System.Console.WriteLine("His age is: age");
+Isso imprimirá "His age is: age" em vez de "His age is: 10"
+
+Para resolver isso, usaremos a interpolação de strings:
+
+int age = 30;
+string name = "Alice";
+double balance = 1500.75;
+
+System.Console.WriteLine($"Name: {name}, Age: {age}, Balance: {balance}");
+$ indica que a string é uma string interpolada.
+{} são placeholders para variáveis.
+Outra maneira de combinar strings com variáveis é usando o operador +:
+
+System.Console.Write("Name: " + name + " Age: " +  age 
