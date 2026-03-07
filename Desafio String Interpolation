@@ -1,0 +1,20 @@
+Desafio
+
+Iniciante
+Você recebe um código que armazena uma string aleatória como entrada em uma variável chamada rnd.
+
+Imprima no console "The input is: " e a string aleatória que está dentro da variável rnd, usando interpolação de string.
+
+
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        string rnd = Console.ReadLine();
+        
+        // Write your code below
+        System.Console.WriteLine($"The input is: {rnd}");
+        
+    }
+}
