@@ -1,0 +1,13 @@
+Leitura de Entrada
+
+
+
+Até agora, armazenamos valores que pensamos em variáveis. Programas geralmente não funcionam dessa forma. Recebemos valores de uma fonte externa, um usuário por exemplo.
+
+Em C#, obter entrada de um usuário é feito usando o método Console.ReadLine(). Este método lê uma linha de texto digitada pelo usuário no console. A entrada é sempre retornada como um string.
+
+Aqui está um exemplo de como obter entrada de um usuário:
+
+string name = Console.ReadLine();
+Console.WriteLine("Your name is: " + name);
+Neste exemplo, o programa espera que o usuário digite seu nome e pressione Enter. O nome digitado é então armazenado na variável name. Finalmente, o programa imprime uma mensagem que inclui o nome digitado.
