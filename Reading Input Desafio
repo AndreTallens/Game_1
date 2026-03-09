@@ -1,0 +1,23 @@
+Escreva um programa que obtém entrada do usuário (o nome dele) e depois exibe Hello,  seguido pelo nome inserido pelo usuário.
+
+Por exemplo, se o usuário digitar Bob, a saída esperada é Hello, Bob.
+
+Você precisará:
+
+Ler o nome do usuário usando o método apropriado de Console.
+Exibir Hello,e a variável armazenada no final.
+
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        // Read the user's name
+        string name = Console.ReadLine();
+        
+        
+        // Print the greeting message
+        Console.WriteLine("Hello, " + name);
+        
+    }
+}
