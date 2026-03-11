@@ -1,0 +1,22 @@
+Parse
+
+
+
+Em C#, quando você lê entrada do console usando Console.ReadLine(), ela sempre retorna uma string. Para usar essa entrada como um número ou outro tipo de dados, você precisa convertê-la. O método Parse é comumente usado para esse propósito.
+
+Parse é um método que converte uma string para outro tipo de dados. Ele lança uma exceção se a conversão falhar. Aqui está um exemplo:
+
+string numberString = "42";
+int number = int.Parse(numberString); // Converts "42" to the integer 42
+Se a string não puder ser analisada, Parse lançará uma FormatException. Por exemplo:
+
+string invalidNumberString = "abc";
+int number = int.Parse(invalidNumberString); // Throws FormatException
+Outros tipos comuns:
+ 
+
+Tipo de Dados	Método Parse	Exemplo
+int	int.Parse()	int number = int.Parse("42");
+double	double.Parse()	double number = double.Parse("42.5");
+float	float.Parse()	float number = float.Parse("42.5");
+bool	bool.Parse()	bool isTrue = bool.Parse("true");
