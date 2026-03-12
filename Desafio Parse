@@ -1,0 +1,31 @@
+Parse
+
+
+
+Desafio
+
+Iniciante
+Escreva um programa em C# que leia dois números do console como strings, converta-os para inteiros usando Parse, e depois imprima a soma dos números. O programa deve fazer o seguinte:
+
+Leia o primeiro número como uma string.
+Leia o segundo número como uma string.
+Use int.Parse() para converter os números para inteiros.
+Imprima a soma dos dois números.
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        string firstNumberString = Console.ReadLine();
+        string secondNumberString = Console.ReadLine();
+
+        // Use Parse to convert the numbers
+        int number1 = int.Parse(firstNumberString);
+        int number2 = int.Parse(secondNumberString);
+        
+        
+        // Print the sum of the numbers
+        Console.WriteLine(number1 + number2);
+        
+    }
+}
