@@ -1,0 +1,24 @@
+Resumo - Até 120
+
+
+Desafio
+
+Iniciante
+Escreva um programa que recebe a idade do usuário como entrada.
+
+O programa deve imprimir o número de anos faltantes years till 120 (em um formato específico, mostrado abaixo).
+
+Por exemplo, para entrada 25, a saída esperada é "95 years till 120".
+
+Certifique-se de não imprimir mais nada!
+
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        int age = int.Parse(Console.ReadLine());
+        Console.WriteLine((120 - age) + " years till 120");
+
+    }
+}
