@@ -1,0 +1,21 @@
+Desafio
+
+Iniciante
+Escreva um programa que recebe uma entrada do usuário.
+
+O programa imprimirá "T" se a entrada for igual a 1 e "F" caso contrário.
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        string inpt = Console.ReadLine();
+        if (inpt.Equals("1")) {
+            Console.WriteLine("T");
+        } else {
+            Console.WriteLine("F");
+            
+        }
+
+    }
+}
