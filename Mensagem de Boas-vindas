@@ -1,0 +1,17 @@
+Mensagem de Boas-vindas
+
+
+Desafio
+
+Iniciante
+Neste projeto, você criará um aplicativo de calculadora básico que realiza operações aritméticas como adição, subtração, multiplicação e divisão.
+
+Todo bom programa começa com uma mensagem de boas-vindas. Exiba na tela a seguinte string:
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        Console.WriteLine("Calculator App");
+    }
+}
