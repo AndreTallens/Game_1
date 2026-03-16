@@ -1,0 +1,26 @@
+Obtendo Números
+
+
+Desafio
+
+Iniciante
+Adicione ao código para obter dois números do usuário e armazená-los em variáveis chamadas num1 e num2 (do tipo double). Após obter os números, imprima-os.
+
+Para ler múltiplas entradas, use:
+
+double num1 = double.Parse(Console.ReadLine());
+double num2 = double.Parse(Console.ReadLine());
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        Console.WriteLine("Calculator App");
+        
+        double num1 = double.Parse(Console.ReadLine());
+        double num2 = double.Parse(Console.ReadLine());
+        
+        Console.WriteLine(num1);
+        Console.WriteLine(num2);
+    }
+}
