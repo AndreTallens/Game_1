@@ -1,0 +1,40 @@
+Operações Básicas
+
+
+Desafio
+
+Iniciante
+Adicione as operações aritméticas básicas (adição, subtração, multiplicação e divisão) em num1 e num2. Armazene os resultados em variáveis nomeadas sum, difference, product e quotient, respectivamente.
+
+Imprima os resultados no seguinte formato (substitua cada espaço reservado pelo valor computado real):
+
+Sum: [sum]
+Difference: [difference]
+Product: [product]
+Quotient: [quotient]
+Por exemplo, se sum for 74.3, imprima Sum: 74.3.
+
+Remova qualquer outra operação de impressão que você tenha em seu código, mas deixe a mensagem de boas-vindas.
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        Console.WriteLine("Calculator App");
+        
+        double num1 = double.Parse(Console.ReadLine());
+        double num2 = double.Parse(Console.ReadLine());
+        
+        // Perform arithmetic operations
+        double sum = num1 + num2;
+        double difference = num1 - num2;
+        double product = num1 * num2;
+        double quotient = num1 / num2;
+
+        // Print the results
+        Console.WriteLine("Sum: " + sum);
+        Console.WriteLine("Difference: " + difference);
+        Console.WriteLine("Product: " + product);
+        Console.WriteLine("Quotient: " + quotient);
+    }
+}
