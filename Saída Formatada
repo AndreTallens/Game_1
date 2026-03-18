@@ -1,0 +1,40 @@
+Saída Formatada
+
+
+Desafio
+
+Iniciante
+Modifique a saída para que ela sempre imprima um valor double com duas casas decimais.
+
+Em C#, você pode usar Console.WriteLine com interpolação de string ou string.Format para alcançar esse formatamento.
+
+int num = 0;
+Console.WriteLine($"number: {num:F2}");
+Ou com string.Format:
+
+int num = 0;
+Console.WriteLine(string.Format("number: {0:F2}", num));
+
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        Console.WriteLine("Calculator App");
+        
+        double num1 = double.Parse(Console.ReadLine());
+        double num2 = double.Parse(Console.ReadLine());
+        
+        // Perform arithmetic operations
+        double sum = num1 + num2;
+        double difference = num1 - num2;
+        double product = num1 * num2;
+        double quotient = num1 / num2;
+
+        // Print the results
+        Console.WriteLine($"Sum: {sum:F2}");
+        Console.WriteLine($"Difference: {difference:F2}");
+        Console.WriteLine($"Product: {product:F2}");
+        Console.WriteLine($"Quotient: {quotient:F2}");
+    }
+}
