@@ -1,0 +1,53 @@
+Laço For
+
+
+
+Às vezes, na programação, é necessário executar a mesma operação ou quase a mesma várias vezes.
+
+Para evitar escrever a mesma coisa repetidamente, podemos usar Laços.
+
+O for loop tem a seguinte sintaxe:
+
+for (initialization; condition; update) {
+    code
+}
+Os initialization, condition e update determinam qual é o valor de start e qual é o valor de end.
+
+Por exemplo, laço de 0 a 5 (não incluindo):
+
+for (int i = 0; i < 5; i++) {
+    Console.WriteLine(i);
+}
+Quebrando o laço for:
+
+Inicialização: int i = 0
+Isso executa uma vez no início
+Cria uma variável i e define seu valor inicial como 0
+Condição: i < 5
+Isso é verificado antes de cada iteração
+O laço continua enquanto esta condição for verdadeira
+Quando i se torna 5, a condição se torna falsa e o laço para
+Atualização: i++
+Isso executa após cada iteração
+Aumenta o valor de i em 1 a cada vez
+i++ é uma abreviação para i = i + 1
+for (int i = 0;  i < 5;  i++) {
+     │           │        │
+     │           │        └── Update
+     │           └─────────── Condition
+     └─────────────────────── Initialization
+Ela executará a instrução de impressão 5 vezes:
+
+0
+1
+2
+3
+4
+Os laços têm muitos casos de uso. Por exemplo, vamos somar todos os números de 1 a 100:
+
+int sumNumbers = 0;
+for (int i = 1; i <= 100; i++) {
+    sumNumbers += i;
+}
+Console.WriteLine(sumNumbers);
+Isso primeiro percorrerá todos os números entre 1 e 100 (incluindo 100 por causa do sinal <=) e somará todos eles, depois imprimirá a variável sumNumbers
