@@ -1,0 +1,21 @@
+Desafio
+
+Iniciante
+Escreva um programa que imprima "Hello Coddy: " e o valor de i de 3 a 27 (incluindo, o que significa imprimir os números 3, 4, 5, ..., 26, 27, totalizando 27 - 3 + 1 = 25 vezes), faça isso usando um for loop.
+
+Parecerá assim:
+
+Hello Coddy: 3
+Hello Coddy: 4
+...
+Hello Coddy: 27
+
+using System;
+
+class Program {
+    public static void Main(string[] args) {
+        for (int i = 3; i <= 27; i++) {
+            Console.WriteLine("Hello Coddy: " + i);
+        }
+    }
+} '
