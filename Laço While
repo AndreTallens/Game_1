@@ -1,0 +1,14 @@
+Laço While
+
+
+
+Um while loop é diferente do for loop. Um for loop permite iterar sobre um range específico, enquanto um while loop permite continuar iterando enquanto uma determinada condição for atendida.
+
+Para usar um while loop, escreva:
+
+while (condition) {
+    code
+}
+O código será executado apenas se a condição for true.
+
+Há muitos casos de uso em que um while resolveria o problema, mas o for loop não.
