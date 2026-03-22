@@ -1,0 +1,29 @@
+Do While Loop
+
+
+
+O loop do-while é semelhante ao loop while, mas com uma diferença chave: o bloco de código é executado pelo menos uma vez antes que a condição seja verificada. Isso significa que o corpo do loop sempre executará na primeira vez, independentemente de a condição ser verdadeira ou falsa.
+
+Aqui está a estrutura básica de um loop do-while:
+
+do {
+    // Code to be executed
+} while (condition);
+A palavra-chave do marca o início do loop, seguida pelo bloco de código entre chaves. Após o bloco de código, a palavra-chave while introduz a condição. O loop continuará a executar enquanto a condição for true.
+
+Aqui está um exemplo:
+
+int count = 0;
+do {
+    Console.WriteLine("Count: " + count);
+    count++;
+} while (count < 5);
+Neste exemplo, o código dentro do bloco do será executado primeiro, imprimindo "Count: 0" e incrementando count para 1. Em seguida, a condição count < 5 é verificada. Como é true, o loop continua. Este processo se repete até que count se torne 5, momento em que a condição se torna false e o loop termina.
+
+A saída deste código será:
+
+Count: 0
+Count: 1
+Count: 2
+Count: 3
+Count: 4
