@@ -1,0 +1,23 @@
+Desafio
+
+Iniciante
+Escreva um programa que recebe uma entrada, número double.
+
+Use um loop while para dividir repetidamente o número por 2, e continue dividindo enquanto o valor atual for maior ou igual a 3.5.
+
+Imprima o primeiro número que for menor que 3.5.
+
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        // Write your code below
+        ouble number = double.Parse(Console.ReadLine());
+        while (number >= 3.5) {
+            number /= 2;
+        }
+        Console.WriteLine(number);
+        
+    }
+}
