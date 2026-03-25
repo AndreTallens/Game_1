@@ -1,0 +1,22 @@
+Break
+
+
+
+A instrução break interrompe o loop imediatamente quando é encontrada.
+
+Por exemplo,
+
+for (int i = 0; i < 10; i++) { 
+    if (i == 6) {
+        break;
+    }
+    Console.WriteLine(i);
+}
+No exemplo a seguir, o loop itera normalmente até alcançar o número 6. Então o programa entra na instrução if e executa a instrução break. Isso sai do loop imediatamente. A saída é:
+
+0
+1
+2
+3
+4
+5
