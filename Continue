@@ -1,0 +1,20 @@
+Continue
+
+
+
+A instrução continue interrompe a iteração atual e continua para a próxima iteração. Por exemplo:
+
+for (int i = 3; i < 9; i++) {
+    if (i == 5) {
+        continue;
+    }
+    Console.WriteLine(i);
+}
+O loop iterará por todos os números. quando ele alcançar i=5 ele pulará essa iteração e continuará para a próxima. A saída é:
+
+3
+4
+6
+7
+8
+Observe, o número 5 não está na saída.
