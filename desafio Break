@@ -1,0 +1,19 @@
+Desafio
+
+Iniciante
+Você recebe um código que imprime os números de 1 a 20 (inclusive).
+
+Sua tarefa é adicionar instruções if e break para que apenas os números de 1 a 15 sejam impressos, o loop saia antes de imprimir os números de 16 a 20.
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        for (int i = 1; i <= 20; i++) {
+            Console.WriteLine(i);
+            if (i == 15) {
+                break;
+            }
+        }
+    }
+}
