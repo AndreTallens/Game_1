@@ -1,0 +1,21 @@
+
+Desafio
+
+Iniciante
+Você recebe um código que imprime os números de 1 a 20 (inclusive).
+
+Sua tarefa é adicionar if e continue para que apenas os números pares sejam impressos (2, 4, 6, ...). 
+
+
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        for (int i = 1; i <= 20; i++) {
+            if (i % 2 == 1) {
+                continue;
+            }
+            Console.WriteLine(i);
+        }
+    }
+}
