@@ -1,0 +1,29 @@
+Um loop aninhado é simplesmente um loop dentro de outro loop. O loop interno completará todas as suas iterações para cada iteração única do loop externo.
+
+Uma boa analogia para isso é um relógio: para cada hora (loop externo), o ponteiro dos minutos (loop interno) deve completar seu ciclo completo de 60 minutos.
+
+Exemplo de um loop aninhado:
+
+for (int x = 0; x < 2; x++) {
+    for (int y = 0; y < 2; y++) {
+        Console.WriteLine(x + " " + y);
+    }
+}
+
+// This will output:
+// 0 0
+// 0 1
+// 1 0
+// 1 1
+O loop externo (x) executa duas vezes, e para cada uma dessas vezes, o loop interno (y) executa duas vezes — significando que o corpo do loop interno é executado um total de 4 vezes.
+
+Você também pode precisar de Console.Write() ao trabalhar com loops aninhados. Diferente de Console.WriteLine(), que imprime texto e vai para uma nova linha, Console.Write() imprime texto sem adicionar uma nova linha no final. Isso permite construir a saída na mesma linha:
+
+for (int y = 0; y < 4; y++) {
+    Console.Write("* ");
+}
+Console.WriteLine();
+
+// This will output:
+// * * * * 
+Aqui, Console.Write() continua imprimindo na mesma linha, e Console.WriteLine() no final vai para a próxima linha
