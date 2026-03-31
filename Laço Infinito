@@ -1,0 +1,30 @@
+Laço Infinito
+
+
+
+Um laço infinito é um laço que nunca para porque sua condição sempre avalia para true. Esses laços podem ocorrer com qualquer tipo de laço (for, while, do-while), mas são mais comumente associados a laços while e do-while porque suas condições são explicitamente declaradas.
+
+Aqui está um exemplo de um laço while infinito:
+
+while (true) {
+    Console.WriteLine("This will print forever!");
+}
+Neste caso, a condição é simplesmente true, que sempre avalia para true. Assim, o laço executará indefinidamente, imprimindo a mensagem repetidamente.
+
+Outra maneira de criar um laço infinito é omitindo a condição em um laço for:
+
+for (;;) {
+    Console.WriteLine("This also prints forever!");
+}
+Aqui, as partes de inicialização, condição e atualização do laço for são todas omitidas. Isso cria um laço que executa para sempre.
+
+Laços infinitos também podem ocorrer acidentalmente, como quando a condição do laço é sempre true devido a um erro de lógica:
+
+int i = 0;
+while (i < 10) {
+    Console.WriteLine("i is: " + i);
+    // Missing i++ to increment i
+}
+Neste exemplo, a variável i nunca é incrementada, então a condição i < 10 é sempre true. Isso cria um laço infinito que continuará imprimindo "i is: 0" indefinidamente.
+
+Laços infinitos podem ser úteis em alguns casos, como em programas de servidor que precisam continuar executando até serem parados manualmente. No entanto, eles também podem fazer com que os programas congelem ou travem se não forem tratados adequadamente.
