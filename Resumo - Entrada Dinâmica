@@ -1,0 +1,25 @@
+Resumo - Entrada Dinâmica
+
+
+Desafio
+
+Iniciante
+Escreva um programa que obtém um número dinâmico de valores de entrada.
+
+A primeira entrada é um número que representa o número de valores de entrada que o seguem. Os próximos valores de entrada são números inteiros.
+
+No final, imprima a soma de todos os números de entrada (Exceto o primeiro que armazenamos em count).
+
+Por exemplo,
+
+Entrada:
+
+3
+1
+5
+6
+Saída esperada: 12
+
+Explicação: 1 + 5 + 6 = 12, e há exatamente 3 números seguindo o primeiro número de entrada (3).
+
+Nota: Se você estiver preso, consulte a dica para entender como obter entradas dinamicamente.
