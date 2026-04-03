@@ -1,0 +1,44 @@
+Declarando Métodos
+
+
+
+Um método é uma sequência de código que possui um nome. O propósito de um método é reutilizar um pedaço de código várias vezes.
+
+Por exemplo, observe este código:
+
+Console.WriteLine("Welcome to Coddy");
+Console.WriteLine("New session...");
+Console.WriteLine("Welcome to Coddy");
+Console.WriteLine("Another session...");
+Console.WriteLine("Welcome to Coddy");
+Usamos o mesmo código Console.WriteLine("Welcome to Coddy") repetidamente. Outro problema com este código é que, se quiséssemos alterar a mensagem: Welcome to Coddy para algo diferente, como Welcome aboard, teríamos que alterar 3 linhas diferentes de código. Para resolver esse problema, usaremos métodos.
+
+Para declarar um método, usamos a seguinte sintaxe:
+
+access_modifier [modifiers] return_type method_name(parameters) {
+    // code
+}
+Para o nosso exemplo, criaremos um método chamado Greet e ele ficará assim:
+
+public static void Greet() {
+    Console.WriteLine("Welcome to Coddy");
+}
+Se o decompusermos:
+
+public é o modificador de acesso (controla quem pode usar este método)
+static é um modificador (significa que o método pertence à própria classe)
+void é o tipo de retorno (significa que não retorna nenhum valor)
+Greet é o nome do método
+() contém parâmetros (vazio aqui)
+Por enquanto, sempre escreva public static antes do nome do seu método - explicaremos o que cada palavra significa mais tarde.
+
+Para usar/chamar/executar o método, escrevemos Greet();:
+
+Greet();
+Console.WriteLine("New session...");
+Greet();
+Console.WriteLine("Another session...");
+Greet();
+Isso resultará na mesma saída de cima.
+
+Nota: No C#, a ordem em que os métodos são escritos não importa — um método pode ser chamado antes ou depois de sua definição no arquivo. O compilador C# lê toda a classe primeiro, então todos os métodos estão disponíveis independentemente de onde aparecem no código.
