@@ -1,0 +1,37 @@
+Parâmetros de Métodos
+
+
+
+Um argumento é um valor que você passa para um método quando o chama. Um parâmetro é uma variável na definição do método que recebe esse valor. Para adicionar parâmetros a um método, escrevemos eles dentro dos parênteses ():
+
+public static return_type method_name(data_type arg1, data_type arg2, ...) {
+    // código
+}
+O return_type especifica que tipo de valor o método retornará. Quando um método não precisa retornar nenhum valor (como quando ele apenas imprime algo), use void como o tipo de retorno.
+
+Por enquanto, sempre escreva public static antes do nome do seu método - explicaremos o que cada palavra significa mais tarde.
+
+Podemos nomear os parâmetros como quisermos e podemos escrever quantos parâmetros precisarmos.
+
+Para chamar um método e passar argumentos para ele, escrevemos:
+
+method_name(value1, value2, value3, ...);
+Passar argumentos demais para um método que espera menos argumentos fará com que o programa falhe
+
+Exemplo de uso:
+
+public static void IsEven(int number) {
+    if (number % 2 == 0) {
+        Console.WriteLine(number + " is even");
+    } else {
+        Console.WriteLine(number + " is odd");
+    }
+}
+
+for (int i = 15; i < 34; i++) {
+    IsEven(i);
+}
+for (int i = 153; i < 219; i++) {
+    IsEven(i);
+}
+Aqui temos um método chamado IsEven que define um parâmetro chamado number e imprime se o número é par ou ímpar. Então chamamos o método duas vezes, passando argumentos para ele: uma vez para todos os números entre 15 e 34, segunda vez para todos os números entre 153 e 219.
