@@ -1,0 +1,56 @@
+Tipos de Retorno
+
+
+
+Desafio
+
+Fácil
+Cada caso de teste tem três entradas:
+
+A primeira entrada indica quantas vezes fazer iterações
+As duas últimas entradas são números nos quais faremos operações
+Crie um método que recebe dois argumentos e retorna o maior número dos dois. Se ambos forem iguais, retorne qualquer um.
+
+No método main:
+
+Itere iterations vezes. Para cada iteração:
+
+Chame o método Bigger com num1 e num2, e salve o resultado em uma variável
+Identifique qual variável original (num1 ou num2) contém o maior valor
+Divida essa variável original por 2 e atualize-a
+Exemplo: Se num1 for maior, então faça: num1 = num1 / 2
+Imprima o valor recém-atualizado
+Pare o loop cedo se qualquer num1 ou num2 se tornar menor que 2.
+
+
+using System;
+
+public class Program {
+    public static double Bigger(double arg1, double arg2) {
+        if (arg1 > arg2) {
+            return arg1;
+        } else {
+            return arg2;
+        }
+    }
+
+    public static void Main(string[] args) {
+        int iterations = int.Parse(Console.ReadLine());
+        double num1 = double.Parse(Console.ReadLine());
+        double num2 = double.Parse(Console.ReadLine());
+
+        for (int i = 0; i < iterations; i++) {
+            if (num1 < 2 || num2 < 2) {
+                break;
+            }
+            double big = Bigger(num1, num2);
+            if (big == num1) {
+                num1 /= 2;
+                Console.WriteLine(num1);
+            } else {
+                num2 /= 2;
+                Console.WriteLine(num2);
+            }
+        }
+    }
+}
