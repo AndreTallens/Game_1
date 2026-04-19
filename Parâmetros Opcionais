@@ -1,0 +1,23 @@
+Parâmetros Opcionais
+
+
+
+Em C#, você pode definir parâmetros opcionais em um método fornecendo um valor padrão na assinatura do método. Isso permite que você chame o método com ou sem especificar o argumento para esse parâmetro. Se o argumento não for fornecido, o valor padrão será usado.
+
+Aqui está a sintaxe básica para definir um parâmetro opcional:
+
+access_modifier return_type method_name(parameter_type parameter_name = default_value) {
+    // Corpo do método
+}
+Por exemplo:
+
+public void Greet(string name = "Guest") {
+    Console.WriteLine("Hello, " + name + "!");
+}
+Neste exemplo, o método Greet tem um parâmetro opcional name com um valor padrão de "Guest". Você pode chamar este método de duas maneiras:
+
+Greet("Alice"); // Saída: Hello, Alice!
+Greet(); // Saída: Hello, Guest!
+Se você fornecer um argumento para name, ele será usado. Se você omitir o argumento, o valor padrão "Guest" será usado.
+
+Parâmetros opcionais devem aparecer após todos os parâmetros obrigatórios na assinatura do método. Você pode ter múltiplos parâmetros opcionais, mas uma vez que você define um parâmetro opcional, todos os parâmetros subsequentes também devem ser opcionais.
